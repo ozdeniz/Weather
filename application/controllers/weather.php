@@ -1,4 +1,3 @@
-
 <?php
  
 class weather extends CI_Controller 
@@ -9,6 +8,7 @@ class weather extends CI_Controller
 		$this->load->library('Kontrol_lib');
 		$this->load->library('Veri_lib');
 		$this->load->model('weather_model');
+		$this->load->library('Resim_lib');
 		
 	}
 	
@@ -32,6 +32,7 @@ class weather extends CI_Controller
 		}
 		else{
 			echo $this->weather_model->all_count(). " kayıt var";
+			
 		}
 		$this->load->view('view');
 		
@@ -49,6 +50,7 @@ class weather extends CI_Controller
 	$this->load->view('veri');
 	
 	}
+	
 	
 
  }
