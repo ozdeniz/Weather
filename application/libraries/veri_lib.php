@@ -19,6 +19,8 @@ class Veri_lib
 			echo $sonuc;
 			exit;
 	 }
+	 
+	 
  
 }
 ?>

@@ -17,6 +17,8 @@ $(document).ready(function(){
 	  
 </script>
 
+
+
 <script>
 $(document).ready(function(){
 
@@ -41,7 +43,11 @@ $(document).ready(function(){
 
 });
 </script>
+
+
 <title></title>
 </head>
  
-<body>
+<body style="background-image:url(https://farm4.staticflickr.com/3779/10366540825_fd3b464464_b.jpg)">
+
+<div style="width:100%;background:linear-gradient(#8ED6FF, #004CB3);"><h1><center>Yahoo Weather API</center></h1></div>
